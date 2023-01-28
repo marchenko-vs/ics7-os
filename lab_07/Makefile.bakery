@@ -42,4 +42,3 @@ $(SERVER) : $(OBJECTS_SVC)
 
  clean:
 	 $(RM) core $(TARGETS) $(OBJECTS_CLNT) $(OBJECTS_SVC) $(CLIENT) $(SERVER)
-
