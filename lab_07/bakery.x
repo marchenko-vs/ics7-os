@@ -1,12 +1,13 @@
-const GET_NUMBER = 0;
-const ENTER_CR = 1;
+const GET_NUMBER  = 0;
+const GET_LETTER  = 1;
+const MAX_CLIENTS = 5;
 
 struct BAKERY
 {
-    int op;
-    int num;
-    int pid;
-    int result;
+    int  op;
+    int  num;
+    int  pid;
+    char letter;
 };
 
 program BAKERY_PROG
